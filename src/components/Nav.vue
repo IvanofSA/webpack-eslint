@@ -4,6 +4,11 @@
       <li>1</li>
       <li>2</li>
       <li>3</li>
+      <li>3</li>
+      <li>3</li>
+      <li>3</li>
+      <li>3</li>
+      <li>3</li>
     </ul>
   </nav>
 </template>
@@ -15,12 +20,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.ul {
+nav {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+ul {
   list-style: none;
+  text-align: center;
   li {
-    font-size: 25px;
-    color: orange;
-    background: #000;
+    display: inline-block;
+    font-size: 24px;
+    color: red;
   }
 }
 </style>
