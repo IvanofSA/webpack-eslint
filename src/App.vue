@@ -1,15 +1,16 @@
 <template>
-                <main class="main">
-        <Nav/>
-                    <h1>Hello Vudfsdfe!</h1>
-    </main>
+  <main class="main">
+    <Nav />
+
+    <h1>Hello Vudfsdfasdasde!</h1>
+  </main>
 </template>
 
 <script>
 import Nav from './components/Nav';
 
 export default {
-                name: 'App',
+  name: 'App',
   components: {
     Nav,
   },
@@ -17,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-    h1 {
-        color: yellowgreen;
-    }
+h1 {
+  color: yellowgreen;
+}
 </style>
